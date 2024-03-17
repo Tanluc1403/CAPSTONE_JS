@@ -148,7 +148,7 @@ function add(data) {
             <tr>
                 <td>${index + 1} </td>
                 <td>${product.name}</td>
-                <td>${product.img}</td>
+                <td><img src="${product.img}" width="50" /></td>
                 <td>${product.price}</td>
                 <td>
                 <i onclick = "upCount(${product.id})"  class="fa-solid fa-minus"></i>
