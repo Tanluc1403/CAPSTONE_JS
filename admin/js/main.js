@@ -31,7 +31,7 @@ const renderUI = (data) => {
             <td>${product.name}</td>
             <td>${product.price}</td>
             <td>
-                <img src="./../img/${product.img}" width = 50/>
+                <img src="${product.img}" width = 50/>
             </td>
             <td>${product.backCamera}</td>
             <td>${product.frontCamera}</td>
