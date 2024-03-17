@@ -1,0 +1,28 @@
+.phoneCarousel{
+    background-color: #2196f3;
+    background-size: cover;
+    background-position: center bottom;   
+    padding: $pd-2 0;
+    margin-bottom: $mg-4;
+    .btnPhone-white {
+        padding: $pd-9;
+        border-radius: $bd-2;
+        border-color: $color-yellow-1;
+        background-color: $color-dark-1;
+        color: $color-blue-3;
+        text-transform: uppercase;
+
+    }
+    .btnPhone-blue {
+        @extend .btnPhone-white;
+    }
+    h1 {
+        font-size: $fs-4;
+    };
+    h3 {
+        font-size: $fs-8;
+    };
+    p {
+        font-size: $fs-7;
+    }
+}

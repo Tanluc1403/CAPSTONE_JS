@@ -1,0 +1,27 @@
+.cardPhone{
+    box-shadow: 6px 6px 12px $color-white-2, -6px -6px 12px $color-white-3;
+    background-color: $color-white-1;
+    border: none;
+    padding: $pd-1 + 5;
+    margin-bottom: $mg-1;
+    img{
+        box-shadow: 6px 6px 12px $color-white-2, -6px -6px 12px $color-white-3;
+        border-radius: $bd-2;
+    };
+    .cardPhone__title{
+       @include styleText($fs-7,$fw-3,$color-blue-1);
+    };
+    .cardPhone__text{
+        @include styleText($fs-1,$fw-1,$color-blue-1)
+    };
+    
+} 
+
+.products .nav-item #brand {
+    padding: $pd-9;
+    border-radius: $bd-2;
+    border-color: $color-yellow-1;
+    background-color: $color-dark-1;
+    color: $color-blue-3;
+    text-transform: uppercase;
+}
